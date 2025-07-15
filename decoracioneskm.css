@@ -1,0 +1,120 @@
+body{
+
+            background-image: url("fiesta.jpg"); /* url(../decoraciones km1.jpg))*/
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; color: rgb(255, 255, 255);
+            
+}
+h1{
+    text-align: center ;
+    
+
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px; 
+    
+    
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+}
+
+.item{
+    padding: 15px;
+    background-color:   rgba(78, 41, 180, 0.596);
+    background: linear-gradient(145 deg rgb);
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgb(rgb(253, 28, 28), rgb(255, 251, 15), rgb(112, 199, 72));
+    margin-bottom: 20px;
+    
+    
+}
+
+
+.titulocentral{
+    text-align: center;
+}
+.item1{
+    border-radius: 30px;
+    background-color: black;
+    padding: auto;
+    border: 1px double black;
+    text-align: center;
+    
+}
+.pie{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-shadow: 0 0 10px rgb(12, 164, 235);
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-weight: bold;
+
+
+}
+.gallery { flex-direction: column; }
+
+.gallery { align-items: center; }
+
+/* ==== Sección Ubicación GPS ==== */
+.ubicacion { /* Sección de ubicación ( hace que quede en el centro*/
+  padding: 60px 20px; /* Espaciado del texto para denro de la caja*/
+  background-color: #272883;
+  text-shadow: 0 0 10px rgb(12, 164, 235);
+  text-align: center;
+}
+
+.mapa-container iframe { /* Contenedor del mapa,, su tamaño y estilo */
+  width: 90%;
+  max-width: 900px;
+  height: 350px;
+  border: 2px solid rgb(0, 238, 255);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(91, 94, 255, 0.61);
+}
+
+
+/* Botón para abrir mapa */
+.boton-direccion {
+  display: inline-block; /* Define como se muestra un elemento en la pagina */
+  margin-top: 15px;
+  padding: 10px 25px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(219, 151, 49);
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s; /* Transición suave al pasar el mouse ( como cambiar el estilo de un botton lentamente */
+}
+
+.boton-direccion:hover {
+  color: black;
+  background-color: rgb(76, 0, 255);
+ 
+}
+/* --- Sección 5: Contacto --- */
+.contacto {
+  padding: 50px;
+  background: #111;
+  text-shadow: 0 0 10px rgb(17, 0, 255);
+}
+
+label {
+  display: block;
+  margin: 15px 0 5px;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  border: 2px solid rgba(9, 12, 199, 0.945);
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+}

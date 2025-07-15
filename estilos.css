@@ -1,0 +1,35 @@
+body{
+background-image: url('../fondo.jpeg'); 
+            background-size: cover; 
+            background-position: fixed;
+            background-repeat: no-repeat;
+            height: 100vh; color: white;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
+
+.item{
+    background-color: brown;
+    padding: 20px;
+}
+
+.titulocentral{
+    text-align: center;
+}
+.item1{
+    background-color: black;
+    padding: auto;
+    border: 1px double black;
+    text-align: center;
+}
+.pie{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 15px;
+    padding: 30px;
+
+}
